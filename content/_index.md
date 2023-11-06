@@ -63,7 +63,6 @@ sections:
 - block: collection
   content:
     filters:
-      featured_only: true
       folders:
       - publication
     title: Featured Publications
@@ -71,14 +70,6 @@ sections:
     columns: "2"
     view: card
   id: featured
-- block: collection
-  content:
-    folders:
-    - publication
-  title: Featured Publications
-  design:
-    columns: "2"
-    view: citation
 - block: contact
   content:
     address:
