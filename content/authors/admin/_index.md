@@ -2,6 +2,9 @@
 bio: My research interests include developing doubly-robust estimator theory for transportability and generalization of treatment specific survival curves, and developing doubly-robust estimators in the context of repeated continuous/factorial exposures effects.
 education:
   courses:
+  - course: PhD in Biostatistics
+    institution: New York Univsersity
+    year: Current
   - course: MS in Biostatistics
     institution: University of Michigan
     year: 2017
@@ -11,14 +14,14 @@ education:
 email: ""
 highlight_name: false
 interests:
+- Causal Inference
 - Survival Analysis/Prediction/Stratification with Delayed Entry
 - Cancer Genomics
-- Causal Inference
 - Optimized Individualized Treatment Rules
 - Software development
 organizations:
-- name: Memorial Sloan Kettering Cancer Center
-  url: https://www.mskcc.org/
+- name: NYU Langone Department of Biostatistics
+  url: https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/
 role: Research Biostatistician
 social:
 - icon: envelope
