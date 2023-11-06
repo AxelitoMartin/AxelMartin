@@ -75,7 +75,7 @@ sections:
     filters:
       folders:
       - software
-    title: Softwares
+    title: Software
   design:
     columns: "2"
     view: card
