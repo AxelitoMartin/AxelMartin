@@ -1,93 +1,55 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include developing doubly-robust estimator theory for transportability and generalization of treatment specific survival curves, and developing doubly-robust estimators in the context of repeated continuous/factorial exposures effects.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-first_name: Shiung Wu
-highlight_name: true
+  - course: MS in Biostatistics
+    institution: University of Michigan
+    year: 2017
+  - course: BS in Mathematics and Computer Science
+    institution: McGill University
+    year: 2014
+email: ""
+highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Chien
-name_pronunciation: Chien Shiung Wu
+- Survival Analysis/Prediction/Stratification with Delayed Entry
+- Cancer Genomics
+- Causal Inference
+- Optimized Individualized Treatment Rules
+- Software development
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
-skills:
-- items:
-  - description: ""
-    icon: python
-    icon_pack: fab
-    name: Python
-    percent: 80
-  - description: ""
-    icon: chart-line
-    icon_pack: fas
-    name: Data Science
-    percent: 100
-  - description: ""
-    icon: database
-    icon_pack: fas
-    name: SQL
-    percent: 40
-  name: Technical
-- color: '#eeac02'
-  color_border: '#f0bf23'
-  items:
-  - description: ""
-    icon: person-hiking
-    icon_pack: fas
-    name: Hiking
-    percent: 60
-  - description: ""
-    icon: cat
-    icon_pack: fas
-    name: Cats
-    percent: 100
-  - description: ""
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
-    percent: 80
-  name: Hobbies
+- name: Memorial Sloan Kettering Cancer Center
+  url: https://www.mskcc.org/
+role: Research Biostatistician
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
-- display:
-    header: true
-  icon: twitter
+  link: axel.steph.martin@gmail.com
+- icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/CLaunderer
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=EE0vL8kAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/AxelitoMartin
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
-- icon: cv
-  icon_pack: ai
-  link: uploads/resume.pdf
-status:
-  icon: ☕️
+  link: https://www.linkedin.com/in/axel-martin-202b9581/
 superuser: true
-title: 吳健雄
+title: Axel S. Martin
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+I am a PhD student in Biostatistics at [New York University](https://publichealth.nyu.edu/department/biostatistics) under the supervision of [Michele Santacaterrina](https://michelesantacatterina.github.io/) and [Ivan Diaz](https://www.idiaz.xyz/).
+
+My research focuses methodological development of novel causal inference methods. My primary interests center around developing doubly-robust estimator theory for transportability and generalization of treatment specific survival curves, and developing doubly-robust estimators in the context of repeated continuous/factorial exposures effects.
+
+
+Prior to joining NYU for a doctoral program I was a research biostatistician at [Memorial Sloan Kettering cancer center](https://www.mskcc.org/departments/epidemiology-biostatistics) (MSKCC) in New-York city in the department of Epidemiology & Biostatistics. 
+
+During my time there focuses on the development of complex methods for survival prediction and stratification in high-dimensional genomic datasets of various cancer cohorts. Over the course of my time at MSKCC I have developed some open-source R packages to perform ensemble learning for left-truncated genomic survival datasets, including some online visual tools for exploration, validation and individual predictions.  This focus on genomics also lead me to develop tools to streamline data retrieval and processing into an analysis ready format, building pipelines enabling beginners to perform complex analytics in a very accessible way.
+
+I also specialize in R Shiny application development both for research and educational purposes in order to render in a more user friendly way complex statistical results.
+
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/AxelMartin_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
