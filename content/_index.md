@@ -70,6 +70,15 @@ sections:
     columns: "2"
     view: card
   id: featured
+- block: collection
+  content:
+    filters:
+      folders:
+      - software
+    title: Softwares
+  design:
+    columns: "2"
+    view: card
 - block: contact
   content:
     address:
