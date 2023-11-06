@@ -3,7 +3,7 @@ bio: My research interests include developing doubly-robust estimator theory for
 education:
   courses:
   - course: PhD in Biostatistics
-    institution: New York Univsersity
+    institution: New York University
     year: Current
   - course: MS in Biostatistics
     institution: University of Michigan
@@ -22,7 +22,7 @@ interests:
 organizations:
 - name: NYU Langone Department of Biostatistics
   url: https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/
-role: Research Biostatistician
+role: PhD Student
 social:
 - icon: envelope
   icon_pack: fas
