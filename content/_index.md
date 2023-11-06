@@ -67,7 +67,8 @@ sections:
   title: Featured Publications
   design:
     columns: "2"
-    view: citation
+    view: card
+  id: featured
 - block: contact
   content:
     address:
