@@ -8,12 +8,10 @@ authors:
   - Judy Zhong
 doi: "162:5286-5308"
 featured: false
-image: false
 projects: []
 publication: '*Proceedings of Machine Learning Research, Volume 162* (2022)'
 publication_short: ""
 publishDate: "2022-6-28"
-summary: false
 tags:
   - Source Themes
 title: Fair Generalized Linear Models with a Convex Penalty
