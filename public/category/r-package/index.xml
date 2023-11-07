@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Package | Academic</title>
+    <link>https://axelmartin.netlify.app/category/r-package/</link>
+      <atom:link href="https://axelmartin.netlify.app/category/r-package/index.xml" rel="self" type="application/rss+xml" />
+    <description>R Package</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://axelmartin.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>R Package</title>
+      <link>https://axelmartin.netlify.app/category/r-package/</link>
+    </image>
+    
+    <item>
+      <title>OncoCast</title>
+      <link>https://axelmartin.netlify.app/software/oncocast/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/software/oncocast/</guid>
+      <description>&lt;h1 id=&#34;oncocast-r-package&#34;&gt;&lt;code&gt;OncoCast&lt;/code&gt; R package&lt;/h1&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/AxelitoMartin/OncoCast&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://travis-ci.com/AxelitoMartin/OncoCast.svg?branch=development&#34; alt=&#34;Travis build
+status&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/AxelitoMartin/OncoCast?branch=development&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://codecov.io/gh/AxelitoMartin/OncoCast/branch/development/graph/badge.svg&#34; alt=&#34;Codecov test
+coverage&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://zenodo.org/badge/latestdoi/211392347&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://zenodo.org/badge/211392347.svg&#34; alt=&#34;DOI&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;p&gt;Please find all the package&amp;rsquo;s resources on it&amp;rsquo;s &lt;a href=&#34;https://axelitomartin.github.io/OncoCast&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;an-ensemble-learning-approach-for-outcome-prediction-in-precision-oncology-setting&#34;&gt;An Ensemble Learning Approach for Outcome Prediction in Precision Oncology Setting&lt;/h2&gt;
+&lt;p&gt;Ensemble learner framework for survival outcome prediction and
+stratification for high dimension data. Originally developed for cancer
+genomics with delayed entry in the risk set in mind, and thus can adjust
+for left-truncation. OncoCast enables users to easily perform one or
+multiple machine learning survival analyses at once and explore and
+visualize the resulting output.&lt;/p&gt;
+&lt;h2 id=&#34;installing-oncocast&#34;&gt;Installing &lt;code&gt;OncoCast&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;OncoCast&lt;/code&gt; has some dependencies that will be installed if they are not
+found in your library. When installing from github a prompt in the
+console may ask if you want to install the binaries for curl v4.0
+instead of 3.3. There is no need to update it for the package to work
+properly.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;install.packages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;remotes&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;remotes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AxelitoMartin/OncoCast&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you wish to use the development version of the package please use:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;remotes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AxelitoMartin/OncoCast&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ref&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;development&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;using-oncocast&#34;&gt;Using &lt;code&gt;OncoCast&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;We recommend users to walk through the companion website to this package
+before their first use of the method. They will be guided through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/OncoCast/articles/OncoCast-Data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Generating data in a ready for analysis
+format&lt;/strong&gt;&lt;/a&gt;
+where the users will be guided on how to format their data to use
+&lt;code&gt;OncoCast&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/OncoCast/articles/Ensemble-Learner.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Performing an ensemble learning
+run&lt;/strong&gt;&lt;/a&gt;
+through a guide of the different machine learning algorithms
+available and how to create an ensemble model.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/OncoCast/articles/Risk-Prediction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Generating comprehensible
+results&lt;/strong&gt;&lt;/a&gt;
+with a tutorial on how to explore the predicted risk score of
+patients in the dataset, the prognostic power of the ensemble model,
+the importance of each feature of interest and how to optimize
+creation of risk groups in clinically meaningful subsets.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/OncoCast/articles/Online-Tools.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Using web-based interactive
+applications&lt;/strong&gt;&lt;/a&gt;
+to simplify the exploration of results and sharing them
+collaborators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;oncocast-online&#34;&gt;&lt;code&gt;OncoCast&lt;/code&gt; Online&lt;/h2&gt;
+&lt;p&gt;There exist a version of OncoCast completely web-based requiring no
+coding skills and minimal inputs to create and explore an ensemble
+model. It can be found through this &lt;a href=&#34;https://axelitomartin.shinyapps.io/OncoCast/?_ga=2.133036616.733046146.1606492754-1896886074.1572897510&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;online RShiny
+application&lt;/strong&gt;&lt;/a&gt;.
+The user will only be asked to input the dataset they wish to study and
+the method they want to use to create the emsemble model.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gnomeR</title>
+      <link>https://axelmartin.netlify.app/software/gnomer/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/software/gnomer/</guid>
+      <description>&lt;h1 id=&#34;gnomer-r-package&#34;&gt;&lt;code&gt;gnomeR&lt;/code&gt; R package&lt;/h1&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/AxelitoMartin/gnomeR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://travis-ci.com/AxelitoMartin/gnomeR.svg?branch=development&#34; alt=&#34;Travis build
+status&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/AxelitoMartin/gnomeR?branch=development&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://codecov.io/gh/AxelitoMartin/gnomeR/branch/development/graph/badge.svg&#34; alt=&#34;Codecov test
+coverage&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.4171636&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://zenodo.org/badge/DOI/10.5281/zenodo.4171636.svg&#34; alt=&#34;DOI&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;p&gt;Please find all the package&amp;rsquo;s resources on it&amp;rsquo;s &lt;a href=&#34;https://axelitomartin.github.io/OncoCast&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;gnomeR&lt;/code&gt; package provides a consistent framework for genetic data
+processing, visualization and analysis. This is primarily targeted to
+IMPACT datasets but can also be applied to any genomic data provided by
+CbioPortal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/karissawhiting/cbioportalr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Dowloading and gathering data from
+CbioPortal&lt;/strong&gt;&lt;/a&gt; through
+an integrated API using simply the sample IDs of the samples of
+interests or the name of the study to retrive all samples in that
+study. A separate package &lt;code&gt;cbioportalr&lt;/code&gt; was developed independently.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/gnomeR/articles/Data-processing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Processing genomic
+data&lt;/strong&gt;&lt;/a&gt;
+retrieved for mutations (MAF file), fusions (MAF file) and
+copy-number alterations (and when available segmentation files) into
+an analysis ready format.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/gnomeR/articles/Visualizations.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Visualization of the processed
+data&lt;/strong&gt;&lt;/a&gt;
+provided through MAF file summaries, OncoPrints and heatmaps.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/gnomeR/articles/Analizing-genomic-data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Analyzing the processed
+data&lt;/strong&gt;&lt;/a&gt;
+for association with binary, continuous and survival outcome.
+Including further visualiztion to improve understanding of the
+results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;You can install &lt;code&gt;gnomeR&lt;/code&gt; from &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# install.packages(&amp;#34;devtools&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;devtools&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AxelitoMartin/gnomeR&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Similarly for those who wish to explore the development version of
+&lt;code&gt;gnomeR&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;devtools&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AxelitoMartin/gnomeR&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ref&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;development&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Along with its companion package for cbioPortal data download:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;devtools&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;karissawhiting/cbioportalr&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>genomeVerse</title>
+      <link>https://axelmartin.netlify.app/software/genomeverse/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/software/genomeverse/</guid>
+      <description>&lt;h1 id=&#34;genomeverse-framework-for-genomic-data-processing-and-analysis&#34;&gt;&lt;code&gt;genomeVerse&lt;/code&gt;: Framework for Genomic data Processing and Analysis&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;genomeVerse&lt;/code&gt; is an umbrella package for genomic data processing and analysis with the &lt;code&gt;genomeVerse&lt;/code&gt; ecosystem of R packages developed in the department of &lt;a href=&#34;https://www.mskcc.org/departments/epidemiology-biostatistics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Epidemiology &amp;amp; Biostatistics at Memorial Sloan Kettering Cancer Center&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;library(genomeVerse)&lt;/code&gt; loads the following packages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://axelitomartin.github.io/gnomeR/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;gnomeR&lt;/strong&gt;&lt;/a&gt; for data downloading and processing from &lt;a href=&#34;https://www.cbioportal.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cBioPortal&lt;/a&gt; a genomic tool distributed by Memorial Sloan Kettering Cancer Center. The source code can be found on &lt;a href=&#34;https://github.com/AxelitoMartin/gnomeR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arorarshi.github.io/panelmap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;panelmap&lt;/strong&gt;&lt;/a&gt; creates panels for summarizing binary data, categorical data (more than 2 categories) and continuous data for known groups. &lt;code&gt;panelmap&lt;/code&gt; is a visual aid to understand associations and trends in data instead from tedious tables and trying to infer multiple plots. The source code can be found on &lt;a href=&#34;https://github.com/arorarshi/panelmap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/arorarshi/survClust&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;survClust&lt;/strong&gt;&lt;/a&gt; an outcome weighted supervised clustering algorithm, designed to classify patients according to their molecular as well as time-event or end point of interest. We present classification of samples on molecular data supervised by time-event data like Overall Survival (OS), Progression Free Survival etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AxelitoMartin/OncoCast&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;OncoCast&lt;/strong&gt;&lt;/a&gt; an ensemble learner for survival prediction and stratification with improved interface. Allows for multiple machine learning to be applied to a high-dimensional data set with survival outcome (including left-truncated data).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/ensembldb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;iClusterPlus&lt;/strong&gt;&lt;/a&gt; Programs iClusterPlus and iClusterBayes are developed for integrative clustering analysis of multi-type genomic data, which are significant extension of the iCluster program (Shen, Olshen and Ladanyi, 2009). Multi-type genomic data arise from the experiments where biological samples (e.g., tumor samples) are analyzed by multiple techniques, for instance, array comparative genomic hybridization (aCGH), gene expression microarray, RNA-seq and DNA-seq, and so on. Examples of these data can be obtained from the Cancer Genome Atlas (TCGA) (&lt;a href=&#34;http://cancergenome.nih.gov/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cancergenome.nih.gov/)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# install.packages(&amp;#34;devtools&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;devtools&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;install_github&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AxelitoMartin/genomeVerse&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

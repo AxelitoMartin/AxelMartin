@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial | Academic</title>
+    <link>https://axelmartin.netlify.app/tag/tutorial/</link>
+      <atom:link href="https://axelmartin.netlify.app/tag/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tutorial</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://axelmartin.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Tutorial</title>
+      <link>https://axelmartin.netlify.app/tag/tutorial/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to RShiny.</title>
+      <link>https://axelmartin.netlify.app/project/shiny_tutorial1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/project/shiny_tutorial1/</guid>
+      <description>&lt;p&gt;Building statistical tools that enable scientists without a background in statistics or computer science to perform simple statistical analysis in a accessible manner. R Shiny apps are also particularly useful when the output of analysis is large and complicated to to navigate in a markdown report. It enables to user to select directly the output of interest at any time and visioning it in a concise manner.&lt;/p&gt;
+&lt;p&gt;I have been trying to encourage my coworkers to embrace this idea when presenting statistical results to doctors as they usually have very little knowledge about R but love exploring every detail of an analysis. The syntax of Shiny can be a bit counter intuitive at first but it will grow on you as discover it’s many functionalities and marvel in your own progress!&lt;/p&gt;
+&lt;p&gt;I wrote a quick introduction to R Shiny and a full set of documents and code with a couple apps as examples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+&lt;a href=&#34;https://axelmartin.netlify.app/html/ShinyR.html&#34; target=&#34;_blank&#34;&gt;Introduction Markdown&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download the 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/ShinyPrez.zip&#34; target=&#34;_blank&#34;&gt;full set of documents&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OncoCast | Academic</title>
+    <link>https://axelmartin.netlify.app/tag/oncocast/</link>
+      <atom:link href="https://axelmartin.netlify.app/tag/oncocast/index.xml" rel="self" type="application/rss+xml" />
+    <description>OncoCast</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://axelmartin.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>OncoCast</title>
+      <link>https://axelmartin.netlify.app/tag/oncocast/</link>
+    </image>
+    
+    <item>
+      <title>IMSCO, Lake Tahoe, Nevada (2019).</title>
+      <link>https://axelmartin.netlify.app/project/imsco/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/project/imsco/</guid>
+      <description>&lt;p&gt;I had the pleasure to present my work on OncoCast at the International Symposium on Mathematical and Computational Oncology (IMSCO) in 2019. My talk summarised the delayed entry issue found in genomic survival dataset and how I modified well known machine learning algorithms to account for this bias. Further explaining the underlying mechanisms of the ensemble learning framework of OncoCast, simulation results and a real data example. Slides can be found below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/AxelMartin_OncoCast_IMSCO.pptx&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Joint Statistical Meetings, Denver, Colorado (2019).</title>
+      <link>https://axelmartin.netlify.app/project/jsm_2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/project/jsm_2019/</guid>
+      <description>&lt;p&gt;I presented an early version of the &lt;code&gt;OncoCast&lt;/code&gt; package at the Joint Statistical Meetings in 2019. Please refer to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/JSM_presentation.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/JSM_poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

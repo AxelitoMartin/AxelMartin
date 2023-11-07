@@ -5,7 +5,7 @@
     <link>https://axelmartin.netlify.app/project/</link>
       <atom:link href="https://axelmartin.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://axelmartin.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,24 +13,62 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://axelmartin.netlify.app/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://axelmartin.netlify.app/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>IMSCO, Lake Tahoe, Nevada (2019).</title>
+      <link>https://axelmartin.netlify.app/project/imsco/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/project/imsco/</guid>
+      <description>&lt;p&gt;I had the pleasure to present my work on OncoCast at the International Symposium on Mathematical and Computational Oncology (IMSCO) in 2019. My talk summarised the delayed entry issue found in genomic survival dataset and how I modified well known machine learning algorithms to account for this bias. Further explaining the underlying mechanisms of the ensemble learning framework of OncoCast, simulation results and a real data example. Slides can be found below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/AxelMartin_OncoCast_IMSCO.pptx&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://axelmartin.netlify.app/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://axelmartin.netlify.app/project/external-project/</guid>
-      <description></description>
+      <title>Joint Statistical Meetings, Denver, Colorado (2019).</title>
+      <link>https://axelmartin.netlify.app/project/jsm_2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/project/jsm_2019/</guid>
+      <description>&lt;p&gt;I presented an early version of the &lt;code&gt;OncoCast&lt;/code&gt; package at the Joint Statistical Meetings in 2019. Please refer to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/JSM_presentation.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/JSM_poster.pdf&#34; target=&#34;_blank&#34;&gt;poster&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to RShiny.</title>
+      <link>https://axelmartin.netlify.app/project/shiny_tutorial1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://axelmartin.netlify.app/project/shiny_tutorial1/</guid>
+      <description>&lt;p&gt;Building statistical tools that enable scientists without a background in statistics or computer science to perform simple statistical analysis in a accessible manner. R Shiny apps are also particularly useful when the output of analysis is large and complicated to to navigate in a markdown report. It enables to user to select directly the output of interest at any time and visioning it in a concise manner.&lt;/p&gt;
+&lt;p&gt;I have been trying to encourage my coworkers to embrace this idea when presenting statistical results to doctors as they usually have very little knowledge about R but love exploring every detail of an analysis. The syntax of Shiny can be a bit counter intuitive at first but it will grow on you as discover it’s many functionalities and marvel in your own progress!&lt;/p&gt;
+&lt;p&gt;I wrote a quick introduction to R Shiny and a full set of documents and code with a couple apps as examples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+&lt;a href=&#34;https://axelmartin.netlify.app/html/ShinyR.html&#34; target=&#34;_blank&#34;&gt;Introduction Markdown&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download the 
+
+&lt;a href=&#34;https://axelmartin.netlify.app/media/ShinyPrez.zip&#34; target=&#34;_blank&#34;&gt;full set of documents&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
