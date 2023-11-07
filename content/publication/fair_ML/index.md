@@ -6,12 +6,12 @@ authors:
   - admin
   - Padhraic Smyth
   - Judy Zhong
-doi: "162:5286-5308"
+doi: "pmlr-v162-do22a"
 featured: false
 projects: []
 publication: '*Proceedings of Machine Learning Research, Volume 162* (2022)'
 publication_short: ""
-publishDate: "2022-6-28"
+publishDate: "2022-06-28"
 tags:
   - Source Themes
 title: Fair Generalized Linear Models with a Convex Penalty
