@@ -41,25 +41,6 @@ sections:
     title: Biography
     username: admin
   id: about
-- block: portfolio
-  content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: R package
-      tag: R package
-    - name: Rshiny
-      tag: Rshiny
-    default_button_index: 0
-    filters:
-      folders:
-      - project
-    title: Projects
-  design:
-    columns: "1"
-    flip_alt_rows: false
-    view: showcase
-  id: projects
 - block: collection
   content:
     filters:
