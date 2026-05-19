@@ -22,7 +22,7 @@ interests:
 organizations:
 - name: NYU Langone Department of Biostatistics
   url: https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/
-role: PhD Student
+role: PhD Candidate
 social:
 - icon: envelope
   icon_pack: fas
