@@ -1,4 +1,5 @@
 ---
+abstract: The vast preponderance of somatic mutations in a typical cancer are either extremely rare or have never been previously recorded in available databases that track somatic mutations. These constitute a hidden genome that contrasts the relatively small number of mutations that occur frequently, the properties of which have been studied in depth. Here we demonstrate that this hidden genome contains much more accurate information than common mutations for the purpose of identifying the site of origin of primary cancers in settings where this is unknown. We accomplish this using a projection-based statistical method that achieves a highly effective signal condensation, by leveraging DNA sequence and epigenetic contexts using a set of meta-features that embody the mutation contexts of rare variants throughout the genome.
 authors:
   - Saptarshi Chakraborty
   - admin
