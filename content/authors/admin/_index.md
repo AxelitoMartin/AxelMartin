@@ -43,9 +43,9 @@ superuser: true
 title: Axel S. Martin
 ---
 
-I am a PhD student in Biostatistics at [New York University](https://publichealth.nyu.edu/department/biostatistics) under the supervision of [Michele Santacatterina](https://michelesantacatterina.github.io/) and [Iván Díaz](https://www.idiaz.xyz/), graduating in September 2026 and seeking post-doc positions in causal inference and cancer research.
+I am a PhD candidate in Biostatistics at [New York University](https://publichealth.nyu.edu/department/biostatistics) under the supervision of [Michele Santacatterina](https://michelesantacatterina.github.io/) and [Iván Díaz](https://www.idiaz.xyz/), graduating in September 2026 and seeking post-doc positions in causal inference and cancer research.
 
-My research focuses methodological development of novel causal inference methods. My primary interests center around developing doubly-robust estimator theory for transportability and generalization of treatment specific survival curves, and developing doubly-robust estimators in the context of repeated continuous/factorial exposures effects. 
+My research focuses methodological development of novel causal inference methods. My primary interests center around developing doubly-robust estimator theory in the context of [repeated continuous/factorial exposures effects](/publication/msm_continuous/) (Biometrika, 2026), and efficient transportability and generalization of treatment specific survival curves. 
 
 
 Prior to joining NYU for a doctoral program I was a research biostatistician at [Memorial Sloan Kettering cancer center](https://www.mskcc.org/departments/epidemiology-biostatistics) (MSKCC) in New-York city in the department of Epidemiology & Biostatistics. Where I worked on [survival prediction and stratification in high-dimensional genomic datasets](/publication/harnessing_oncocast/), and developed open-source R packages to [perform ensemble learning](/software/oncocast/) and [streamline data retrieval and processing](/software/gnomer/) into an analysis ready format.
