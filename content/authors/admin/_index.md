@@ -43,16 +43,13 @@ superuser: true
 title: Axel S. Martin
 ---
 
-I am a PhD student in Biostatistics at [New York University](https://publichealth.nyu.edu/department/biostatistics) under the supervision of [Michele Santacaterrina](https://michelesantacatterina.github.io/) and [Ivan Diaz](https://www.idiaz.xyz/).
+I am a PhD student in Biostatistics at [New York University](https://publichealth.nyu.edu/department/biostatistics) under the supervision of [Michele Santacatterina](https://michelesantacatterina.github.io/) and [Iván Díaz](https://www.idiaz.xyz/), graduating in September 2026 and seeking post-doc positions in causal inference and cancer research.
 
-My research focuses methodological development of novel causal inference methods. My primary interests center around developing doubly-robust estimator theory for transportability and generalization of treatment specific survival curves, and developing doubly-robust estimators in the context of repeated continuous/factorial exposures effects.
+My research focuses methodological development of novel causal inference methods. My primary interests center around developing doubly-robust estimator theory for transportability and generalization of treatment specific survival curves, and developing doubly-robust estimators in the context of repeated continuous/factorial exposures effects. 
 
 
-Prior to joining NYU for a doctoral program I was a research biostatistician at [Memorial Sloan Kettering cancer center](https://www.mskcc.org/departments/epidemiology-biostatistics) (MSKCC) in New-York city in the department of Epidemiology & Biostatistics. 
+Prior to joining NYU for a doctoral program I was a research biostatistician at [Memorial Sloan Kettering cancer center](https://www.mskcc.org/departments/epidemiology-biostatistics) (MSKCC) in New-York city in the department of Epidemiology & Biostatistics. Where I worked on [survival prediction and stratification in high-dimensional genomic datasets](/publication/harnessing_oncocast/), and developed open-source R packages to [perform ensemble learning](/software/oncocast/) and [streamline data retrieval and processing](/software/gnomer/) into an analysis ready format.
 
-During my time there focuses on the development of complex methods for survival prediction and stratification in high-dimensional genomic datasets of various cancer cohorts. Over the course of my time at MSKCC I have developed some open-source R packages to perform ensemble learning for left-truncated genomic survival datasets, including some online visual tools for exploration, validation and individual predictions.  This focus on genomics also lead me to develop tools to streamline data retrieval and processing into an analysis ready format, building pipelines enabling beginners to perform complex analytics in a very accessible way.
-
-I also specialize in R Shiny application development both for research and educational purposes in order to render in a more user friendly way complex statistical results.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/AxelMartin_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
